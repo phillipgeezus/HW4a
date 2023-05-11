@@ -1,10 +1,11 @@
-from log import timestamp
+from double import double
 
-@timestamp
-def hi():
-    print("hi")
+@double
+def greet():
+    print('Hello World!')
 
 def main():
-    hi()
+    greet()
 
-main()
+if __name__ == "__main__":
+    main()
