@@ -8,7 +8,7 @@ def merge(list1, list2):
             merged.append(list1[i])
             i += 1
         else:
-            merged.append(list2[j)
+            merged.append(list2[j])
             j += 1
 
     merged.extend(list1[i:])
