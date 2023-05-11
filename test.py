@@ -7,5 +7,5 @@ def greet():
 def main():
     greet()
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__test__":
+    test()
