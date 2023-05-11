@@ -6,4 +6,4 @@ def palindrome(list):
 	return palindrome(list[1:-1])
     else:
 	return False
-		
+return True
