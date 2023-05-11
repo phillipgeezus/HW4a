@@ -1,8 +1,5 @@
-import functools
-
 def double(func):
-    @functools.wraps(func)
-    def wrapper(*args, **kwargs):
+    def wrapper():
         func()
         print("Let's try that again!")
         func()
