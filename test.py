@@ -4,7 +4,7 @@ from double import double
 def greet():
     print('Hello World!')
 
-def main():
+def test():
     greet()
 
 if __name__ == "__test__":
