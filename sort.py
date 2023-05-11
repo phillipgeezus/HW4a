@@ -1,6 +1,5 @@
-def sort_dictionary(dictionary):
-    sorted_tuples = sorted(dictionary.items(), key=lambda x: x[1][1], reverse=True)
-    sorted_list = [(name, phone, age) for name, (phone, age) in sorted_tuples]
-    for name, phone, age in sorted_list:
-      print(name, phone, age)
-    return sorted_list
+def sort_dictionary(input_dict):
+    sorted_dict = sorted(input_dict.items(), key=lambda x: x[1][1])
+    result = [(name, phone_num) for name, (phone_num, _) in sorted_dict]   
+    return result
+  
