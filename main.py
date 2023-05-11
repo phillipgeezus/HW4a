@@ -4,8 +4,8 @@ from double import double
 def greet():
     print('Hello World!')
 
-def test():
+def main():
     greet()
 
-if __name__ == "__test__":
-    test()
+if __name__ == "__main__":
+    main()
